@@ -10,7 +10,7 @@ function updateTime() {
     document.getElementById("date").innerText = 
             now.getFullYear() + "-" +
             zeroPadding(now.getMonth() + 1, 2) + "-" +
-            zeroPadding(now.getHours(), 2) + " " +
+            zeroPadding(now.getDay(), 2) + " " +
             WEEK[now.getDay()];          
 }
 
